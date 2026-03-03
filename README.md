@@ -11,8 +11,8 @@ O objetivo principal é aplicar técnicas de ciência de dados para transformar 
 O projeto está organizado da seguinte forma:
 
 * **`FormatacaoDados.ipynb`**: Notebook dedicado ao pipeline de limpeza, tratamento e preparação dos dados brutos (ETL).
-* **`TesteModelagem - Producao.ipynb`**: Experimentos e validação de modelos de regressão/séries temporais voltados para a **predição de volume de produção**.
-* **`TesteModelagem - Custo.ipynb`**: Modelagem focada na análise e predição dos **custos de produção**.
+* **`TesteModelagem - Producao.ipynb`**: Experimentos e validação de modelos de regressão voltados para a criação de grupos baseados na **produção total diária de leite**.
+* **`TesteModelagem - Custo.ipynb`**: Experimentos e validação de modelos de regressão voltados para a criação de grupos baseados no **custo do leite**.
 * **`resultados/`**: Pasta contendo os outputs, gráficos e métricas geradas pelos modelos.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -56,6 +56,8 @@ Siga a ordem lógica: primeiro execute o `FormatacaoDados.ipynb` para preparar o
 ## 📊 Resultados
 
 Os modelos buscam identificar padrões sazonais e tendências econômicas que afetam o setor leiteiro, permitindo uma tomada de decisão baseada em dados para os produtores do projeto Educampo.
+
+**Os resultados separados por grupos de teste e por sistema produtivo podem ser consultados [aqui](https://github.com/JnCM/educampo-leite-analysis/tree/main/resultados)!**
 
 ## 👥 Contribuição
 
